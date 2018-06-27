@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Language", "Language\Language.csproj", "{CF331CDD-D0CF-4C8B-AE82-445EEFC0FCBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Language.Tests", "Language.Tests\Language.Tests.csproj", "{8D32DFAA-53EF-4923-A3CE-C8DB88D5FF48}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF331CDD-D0CF-4C8B-AE82-445EEFC0FCBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF331CDD-D0CF-4C8B-AE82-445EEFC0FCBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF331CDD-D0CF-4C8B-AE82-445EEFC0FCBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF331CDD-D0CF-4C8B-AE82-445EEFC0FCBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D32DFAA-53EF-4923-A3CE-C8DB88D5FF48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D32DFAA-53EF-4923-A3CE-C8DB88D5FF48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D32DFAA-53EF-4923-A3CE-C8DB88D5FF48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D32DFAA-53EF-4923-A3CE-C8DB88D5FF48}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
