@@ -14,21 +14,21 @@ namespace Language.Tests
         }
 
         [TestMethod]
-        public void GetTargetString_ReturnsTargetString_String()
+        public void GetWordString_ReturnsTargetString_String()
         {
             //Arrange
             string targetString = "tea";
             Anagram inputAnagram = new Anagram(targetString);
 
             //Act
-            string result = inputAnagram.GetTargetString();
+            string result = inputAnagram.GetWordString();
 
             //Assert
             Assert.AreEqual(targetString, result);
         }
 
         [TestMethod]
-        public void SetTargetString_SetTargetString_String()
+        public void SetWordString_SetTargetString_String()
         {
             //Arrange
             string targetString = "tea";
@@ -36,8 +36,8 @@ namespace Language.Tests
 
             //Act
             string newTargetString = "beat";
-            inputAnagram.SetTargetString(newTargetString);
-            string result = inputAnagram.GetTargetString();
+            inputAnagram.SetWordString(newTargetString);
+            string result = inputAnagram.GetWordString();
 
             //Assert
             Assert.AreEqual(newTargetString, result);
@@ -142,53 +142,6 @@ namespace Language.Tests
             //Assert
             Assert.AreEqual(false, result);
         }
-
-
-
-        //[TestMethod]
-        //public void CheckAnagram_IsWordAnAnagram_True()
-        //{
-        //    //Arrange
-        //    string targetString = "tea";
-        //    Anagram inputAnagram = new Anagram(targetString);
-
-        //    //Act
-        //    char[] sortedArray = inputAnagram.SortArray(targetString);
-        //    bool result = inputAnagram.CheckAnagram(sortedArray, "eat");
-
-        //    //Assert
-        //    Assert.AreEqual(true, result);
-        //}
-
-        //[TestMethod]
-        //public void CheckAnagram_IsWordDifferentLength_False()
-        //{
-        //    //Arrange
-        //    string targetString = "tea";
-        //    Anagram inputAnagram = new Anagram(targetString);
-
-        //    //Act
-        //    char[] sortedArray = inputAnagram.SortArray(targetString);
-        //    bool result = inputAnagram.CheckAnagram(sortedArray, "eater");
-
-        //    //Assert
-        //    Assert.AreEqual(false, result);
-        //}
-
-        //[TestMethod]
-        //public void CheckAnagram_IsWordNotAnAnagram_False()
-        //{
-        //    //Arrange
-        //    string targetString = "tea";
-        //    Anagram inputAnagram = new Anagram(targetString);
-
-        //    //Act
-        //    char[] sortedArray = inputAnagram.SortArray(targetString);
-        //    bool result = inputAnagram.CheckAnagram(sortedArray, "cat");
-
-        //    //Assert
-        //    Assert.AreEqual(false, result);
-        //}
 
         [TestMethod]
         public void Save_AddInputToList_String()

@@ -5,23 +5,23 @@ namespace Language.Models
 {
     public class Anagram
     {
-        private string _targetString;
+        private string _wordString;
         private static List<string> _testWord = new List<string> { };
 
-        public Anagram(string targetString)
+        public Anagram(string wordString = "")
         {
-            _targetString = targetString;
+            _wordString = wordString;
         }
 
 
-        public void SetTargetString(string newTargetString)
+        public void SetWordString(string newWordString)
         {
-            _targetString = newTargetString;
+            _wordString = newWordString;
         }
 
-        public string GetTargetString()
+        public string GetWordString()
         {
-            return _targetString;
+            return _wordString;
         }
 
         public void Save(string input)
